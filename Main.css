@@ -1,0 +1,147 @@
+/* *Basic CSS styling*  */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+background-image:url('https://cdn.trendhunterstatic.com/thumbs/cool-backgrounds.jpeg');
+background-repeat: no-repeat;
+background-size: 150%;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color:#90ee90;
+    min-height: 70vh;
+}
+
+section {
+    min-height: 70vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+p{
+    font-family: ' Noto Sans Mono', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover{
+    color: rgb(21, 255, 0);
+}
+/* * End of basic CSS styling*  */
+
+/* *Complex CSS styling*  */
+#box{
+    width: 80% ;
+    height: 60% ;
+    border-radius: 10px;
+    background-color: rgb(8, 252, 0);
+    padding: 5px;
+    
+}
+
+.container{
+     padding: 7px 21px 7px 21px;
+     border: 1px solid lightgray;
+     border-radius: 5px ;
+ }
+
+ body{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="mail"]
+input[type="password"],
+textarea,
+ select{ 
+     width: 30%; 
+     padding: 10px;
+}
+.footer{
+    text-align: center;
+    padding: 30px ,0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center; 
+    color: whitesmoke;
+}
+.intro{
+    font-size: 25px;
+}
+.portfolio{
+    font-size: 23px;
+    padding: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.Staircase{
+    text-decoration: none;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+.brand{
+    width: 49px;
+}
